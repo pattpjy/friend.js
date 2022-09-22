@@ -1,18 +1,10 @@
-var i=[];
-while (i.length < 8){
-  var r = Math.floor(Math.random() * 100)+1;
-  if (i.indexOf(r) === -1) i.push(r);
 
-}
 
-for (var i=0; i<=100; i++) {
-  if (i >=30){
-    console.log(i);
+  var r = Math.floor(Math.random() * 100);
+
+  for (var i=0; i<8; i++){
+    var r = Math.floor(Math.random() * 100)
+    if (r <30){
+      console.log(r)
+    }
   }
-}
-
-for (var i=0; i<=100; i++) {
-  if (i <=60){
-    console.log(i);
-  }
-}
