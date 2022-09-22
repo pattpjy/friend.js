@@ -4,3 +4,9 @@ for (var i=0; i<8; i++) {
     console.log(r)
   }
 }
+
+for (var i=0; i<=100; i++) {
+  if (i<=60) {
+    console.log(i)
+  }
+}
